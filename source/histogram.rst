@@ -12,9 +12,26 @@ Plot Properties
 ---------------
 ``Layer``: the combobox will display all the vector layers loaded in QGIS
 
-``X``: the X field
+``X``: the values in this field will be binned and the count in each bin will
+be represented as the length of the bars
 
-``Marker Color``: color of the bar
+``Marker Color``: the color of the bars. To use different colors for individual
+bars, enter an expression that returns an array of color definition strings
+with as many elements as there are bars
+
+For example
+::
+
+ array('red','green','blue','yellow','purple')
+
+or, to use colors from a color ramp
+::
+
+  array_foreach(
+    generate_series(0, 7),
+    ramp_color( 'Blues', @element/7)
+  )
+
 
 ``Stroke Color``: border color
 
