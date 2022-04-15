@@ -109,7 +109,7 @@ Save Plot
 Saving a plot, technically the plot canvas, is very simple. You can choose to save
 the plot as a ``png`` image or as ``html`` file.
 
-.. note:: saving the image as ``html`` file will keep the interactivity of the plot
+.. note:: Saving the image as ``html`` file will keep the interactivity of the plot. The html file relies on the local DataPlotly installation, and cannot in general be used on other systems.
 
 You just have to click on the correct button and choose the path where to save
 the image, both static or interactive.
