@@ -57,7 +57,7 @@ layer):
   dq['layout_prop']["range_slider"]["visible"] = False
 
   # call the method that opens the dialog
-  my.loadPlot(dq)
+  my.loadPlotFromDic(dq)
 
 
 Using the example code shown above should open the DataPlotly dialog, create the
