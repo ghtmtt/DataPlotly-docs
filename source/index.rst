@@ -21,6 +21,7 @@ Welcome to DataPlotly's documentation!
    ternary.rst
    contour.rst
    violin.rst
+   radar.rst
    processing_provider.rst
    from_console.rst
 
